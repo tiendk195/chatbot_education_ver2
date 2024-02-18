@@ -1,0 +1,81 @@
+/* Thiết lập font chữ và màu sắc chung */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Container chính */
+.container {
+  max-width: 600px; /* Điều chỉnh chiều rộng tối đa cho container */
+  margin: 0 auto; /* Căn giữa container */
+  padding: 50px 20px; /* Khoảng cách giữa nội dung và biên container */
+  background-color: #f9f9f9; /* Màu nền của container */
+  border-radius: 10px; /* Bo tròn góc của container */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Đổ bóng cho container */
+}
+.lead {
+  font-size: 14px;
+  
+}
+
+/* Tiêu đề của form */
+h1 {
+  text-align: center;
+  margin-bottom: 30px; /* Khoảng cách giữa tiêu đề và nội dung form */
+}
+
+/* Phần giới thiệu */
+.jumbotron {
+  background-color: #007bff; /* Màu nền của phần giới thiệu */
+  color: #fff; /* Màu chữ của phần giới thiệu */
+  padding: 20px; /* Khoảng cách giữa nội dung và viền phần giới thiệu */
+  border-radius: 10px; /* Bo tròn góc của phần giới thiệu */
+  margin-bottom: 30px; /* Khoảng cách giữa phần giới thiệu và form */
+}
+
+/* Form */
+form {
+  background-color: #fff; /* Màu nền của form */
+  padding: 30px; /* Khoảng cách giữa nội dung và biên form */
+  border-radius: 8px; /* Bo tròn góc của form */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Đổ bóng cho form */
+}
+
+/* Label của input */
+label {
+  font-weight: bold; /* Đậm chữ cho label */
+}
+
+/* Input */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Input cho file */
+input[type="file"] {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+/* Nút gửi */
+input[type="submit"] {
+  background-color: #007bff; /* Màu nền của nút Gửi */
+  color: #fff; /* Màu chữ của nút Gửi */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Khi di chuột qua nút Gửi */
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Màu nền khi di chuột qua nút Gửi */
+}
